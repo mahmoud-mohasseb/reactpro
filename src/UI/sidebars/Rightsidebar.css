@@ -1,0 +1,27 @@
+.rightsidebar {
+  /* position: fixed; */
+  z-index: -100;
+}
+.contacts_title {
+  color: grey;
+  display: flex;
+}
+.contacts_title h1 {
+  font-size: 20px;
+}
+.contacts_title svg {
+  margin: 30px 5px 10px 30px;
+}
+
+.entire_chat {
+  width: 100%;
+  height: 100%;
+}
+.chatting_friends {
+  overflow-y: scroll;
+  width: 100%;
+  height: 250px;
+}
+.create_hash p {
+  color: lightblue;
+}

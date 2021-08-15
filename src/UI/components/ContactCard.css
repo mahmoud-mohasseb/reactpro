@@ -1,0 +1,7 @@
+.contacts {
+  display: flex;
+}
+.contacts p {
+  margin: 15px 15px;
+  font-weight: bold;
+}

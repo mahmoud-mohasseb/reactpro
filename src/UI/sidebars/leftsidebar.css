@@ -1,0 +1,19 @@
+.leftsidebar {
+  /* position: fixed; */
+  z-index: -100;
+}
+.profile_left_sidebar {
+  overflow: hidden;
+}
+/* .profile_left_sidebar > div {
+  background-color: lawngreen;
+} */
+.profile_left_sidebar .circle {
+  margin-left: 120px;
+}
+.image_background {
+  margin-bottom: -30px;
+}
+.image_background img {
+  border-radius: 20px;
+}

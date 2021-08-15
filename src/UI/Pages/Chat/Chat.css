@@ -1,0 +1,93 @@
+.Container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.Friend_chat {
+  width: 350px;
+  height: 780px;
+  overflow: scroll;
+  margin: 10px 10px 0px 50px;
+}
+
+.Friend_chat_search {
+  border: 1px solid grey;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.Friend_chat_search input {
+  background-color: inherit;
+  font-size: 17px;
+  border: none;
+  outline-width: 0px;
+  width: 100px;
+  margin: 3px;
+}
+
+.Friend_chat_search button {
+  border: none;
+  background-color: inherit;
+}
+.friends {
+  margin-top: 20px;
+}
+
+.Chat_core_hearder {
+  margin: 20px;
+  border-radius: 10px;
+  height: 80px;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+.Chat_core_hearder > div {
+  margin: 20px;
+}
+.Conversation_Room {
+  /* background-color: grey; */
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  width: 95%;
+  height: 520px;
+  border-radius: 10px;
+  z-index: -100;
+  overflow: scroll;
+}
+
+.Input_chat {
+  border: 1px solid grey;
+  border-radius: 20px;
+  justify-content: center;
+  width: 90%;
+  margin-top: 20px;
+}
+.Input_chat textarea {
+  border: none;
+  margin-top: 3px;
+  width: 94%;
+  height: fit-content;
+  resize: none;
+  overflow: auto;
+}
+/* .Input_chat svg {
+  margin-bottom: 4px;
+} */
+
+.picker {
+  background-color: grey;
+}
+.chat_chat {
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  display: flex;
+  margin: 20px;
+  border-radius: 20px;
+  width: fit-content;
+}
+.chat_chat h1 {
+  margin: 10px;
+}
+.chat_chat svg {
+  margin: 20px 10px;
+}
+.message__timestamp {
+  color: gray;
+  font-weight: 300;
+  font-size: 13px;
+}

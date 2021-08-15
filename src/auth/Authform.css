@@ -1,0 +1,35 @@
+.Signin {
+  overflow: hidden;
+}
+.Signin > input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.Signin > button {
+  margin: 10px;
+}
+.Signin > button:hover {
+  background-color: gray;
+}
+.Avatar {
+  margin: 10px 200px;
+}
+.Signin > button svg {
+  margin: 0px 5px;
+}
+.Input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.Invalid {
+  border: 1px solid red;
+  background-color: #fda49a;
+}

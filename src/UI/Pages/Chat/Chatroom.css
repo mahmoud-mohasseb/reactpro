@@ -1,0 +1,63 @@
+.Input_chat {
+  background-color: inherit;
+  color: inherit;
+  padding: 3px;
+}
+.Input_chat:focus {
+  outline: none !important;
+}
+/* .sending_btn {
+  border-radius: 50%;
+  border: none;
+  height: 25px;
+  margin: 5px 5px;
+} */
+
+.GIF_PICKER {
+  box-sizing: border-box;
+  background-color: inherit;
+  padding: 6px;
+  height: 300px;
+  overflow: auto;
+}
+.Preview__CloseBtn {
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.77);
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* upload  */
+.UploadMediaBar__Input {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 5px 5px;
+  height: 25px;
+  width: 25px;
+}
+
+.UploadMediaBar__Input:hover {
+  background-color: grey;
+}
+
+.UploadMediaBar__Input[data-disabled='true'] {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.UploadMediaBar__Input input {
+  width: 0;
+  height: 0;
+  display: none;
+}
+.orders_btn {
+  display: flex;
+}

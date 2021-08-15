@@ -1,0 +1,48 @@
+.homepagebody {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px;
+}
+
+.Homepage {
+  background-color: transparent;
+  /* box-shadow: none; */
+  padding: 20px;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  overflow-y: auto;
+}
+.post > div {
+  display: inline-block;
+}
+.post hr {
+  border: none;
+  height: 1px;
+  background: black;
+}
+.underport {
+  display: flex;
+  justify-content: center;
+}
+.underport > div {
+  margin: 0px 50px;
+}
+.add_post {
+  display: flex;
+}
+.add_post button {
+  width: 100%;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  /* background-color: grey; */
+}
+.add_post button:hover {
+  background-color: rgba(94, 86, 86, 0.2);
+}
+
+.add_post button span {
+  margin: 0px 300px 0px 0px;
+  color: grey;
+}

@@ -1,0 +1,104 @@
+.Header {
+  justify-content: center;
+  margin-top: 0;
+  height: 65px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 10px;
+  font-weight: bold;
+  box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+}
+/* .Header input {
+  background-color: white;
+} */
+.Logosearch {
+  display: flex;
+  flex: 1;
+}
+.Logosearch img {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.Menu {
+  margin-left: 250px;
+}
+.Menu > ul {
+  list-style: none;
+  display: flex;
+}
+.Menu li {
+  margin: 0px 30px 0px 30px;
+}
+.Menu ul li > a {
+  text-decoration: none;
+  color: inherit;
+  margin: 9px 20px;
+  font-size: 15px;
+  display: grid;
+}
+
+/* .Menu ul li a:hover  */
+
+.selected {
+  border-bottom: 2px solid grey;
+  padding-bottom: 6px;
+}
+.Menu ul li a :hover {
+  border-bottom: none;
+}
+.Menu ul li svg {
+  margin: 0px 10px 3px 10px;
+}
+.search {
+  margin: 15px;
+  display: flex;
+  font-size: inherit;
+  flex: 1;
+  align-items: center;
+  max-width: fit-content;
+  padding: 8px;
+  height: 14px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  margin-left: 70px;
+  position: absolute;
+}
+.search input {
+  background-color: inherit;
+  font-size: 17px;
+  border: none;
+  outline-width: 0px;
+  width: 100px;
+}
+
+.search input:focus {
+  width: 150px;
+  outline: none !important;
+}
+
+.search button {
+  border: none;
+  background-color: inherit;
+}
+
+.pro-menu {
+  display: flex;
+  flex: 1;
+  margin-left: 100px;
+}
+
+/* .pro-menu svg {
+  margin-top: 30px;
+} */
+.pro-menu button {
+  border-radius: 50%;
+  border: none;
+  height: 25px;
+  margin: 20px 10px;
+}
+.pro-menu h3 {
+  margin-top: 30px;
+}

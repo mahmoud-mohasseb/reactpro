@@ -1,0 +1,45 @@
+.post_view {
+  width: 100%;
+  height: 100%;
+}
+
+.post_header {
+  display: flex;
+  flex: 1;
+  margin: 20px 10px;
+}
+.post_header svg {
+  margin-top: 13px;
+  margin-left: 260px;
+}
+.post_text {
+  margin: 0px 300px 0px 0px;
+}
+.post_text h3 {
+  font-size: 15px;
+  color: black;
+}
+.post_text p {
+  font-size: 10px;
+  color: gray;
+}
+.post_reaction_part {
+  display: flex;
+}
+.post_reaction_part button {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+  border-radius: 30px;
+  border: none;
+  width: 50%;
+}
+.post_reaction_part button:hover {
+  background-color: rgba(94, 86, 86, 0.2);
+}
+.post_reaction_part button svg {
+  margin: 0px 2px;
+}
+.post_reaction_part button span {
+  margin: 0px 5px;
+}

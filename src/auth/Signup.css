@@ -1,0 +1,55 @@
+.clearfix button {
+  /* background-color: black; */
+  color: var(--btn-color);
+  padding: var(--btn-padding);
+  font-size: 1.1rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 1.2rem;
+  margin: 0px 20px;
+  font-family: var(--font-family);
+}
+.cancel_btn {
+  padding: 14px 20px;
+  background-color: red;
+}
+.signupbtn {
+  padding: 14px 20px;
+  background-color: green;
+}
+.clearfix button:hover {
+  opacity: 1;
+}
+.clearfix {
+  display: flex;
+  /* width: 50%; */
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 0% 0% 1% 0%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.modal-content input[type='text'],
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 20px;
+  background: #f1f1f1;
+}
+.modal-content input[type='text']:focus,
+input[type='password']:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.modal-content input[type='email'],
+input[type='text'] {
+  max-width: 446px;
+}

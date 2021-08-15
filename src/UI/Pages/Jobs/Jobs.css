@@ -1,0 +1,62 @@
+.Map_container {
+  display: flex;
+}
+.mapbox {
+  background-color: white;
+  width: 450px;
+  height: 450px;
+  margin: 140px;
+  border-radius: 20px;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  position: relative;
+}
+
+.searchJob {
+  margin: 15px;
+  display: flex;
+  font-size: inherit;
+  flex: 1;
+  align-items: center;
+  max-width: fit-content;
+  padding: 8px;
+  height: 14px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  margin-left: 70px;
+  position: absolute;
+}
+.searchJob input {
+  background-color: inherit;
+  font-size: 17px;
+  border: none;
+  outline-width: 0px;
+  width: 20 0px;
+}
+.searchJob input:focus {
+  width: 250px;
+  outline: none !important;
+}
+.searchJob button {
+  border: none;
+  background-color: inherit;
+}
+.btnlocation {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  padding: 4px;
+}
+
+.content {
+  margin-top: 60px;
+  text-align: center;
+  width: 750px;
+  height: 600px;
+  overflow: scroll;
+}
+.card_details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
